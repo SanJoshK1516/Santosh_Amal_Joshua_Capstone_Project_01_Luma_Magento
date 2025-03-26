@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-24T01:03:49 IST" name="Default suite" finished-at="2025-03-24T01:04:40 IST" duration-ms="50998">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Magento.TestRunner.S3CheckoutPaymentTestNGTR@54e041a4]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-03-24T01:03:49 IST" name="Default test" finished-at="2025-03-24T01:04:40 IST" duration-ms="50998">
+      <class name="com.Magento.TestRunner.S3CheckoutPaymentTestNGTR">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.Magento.TestRunner.S3CheckoutPaymentTestNGTR@54e041a4]" started-at="2025-03-24T01:03:49 IST" name="setUpClass" finished-at="2025-03-24T01:03:50 IST" duration-ms="1717" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5296f00c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Magento.TestRunner.S3CheckoutPaymentTestNGTR@54e041a4]" started-at="2025-03-24T01:03:50 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-24T01:04:39 IST" duration-ms="48530" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To Check Login, proceeding to Check out and placing Order"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Checking Login, proceeds to Check out and placing Order"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.Magento.TestRunner.S3CheckoutPaymentTestNGTR@54e041a4]" started-at="2025-03-24T01:04:39 IST" name="tearDownClass" finished-at="2025-03-24T01:04:40 IST" duration-ms="562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.Magento.TestRunner.S3CheckoutPaymentTestNGTR -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

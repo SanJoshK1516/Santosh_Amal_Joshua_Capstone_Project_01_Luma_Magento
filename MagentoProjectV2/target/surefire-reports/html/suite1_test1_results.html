@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="css/bootstrap.min.css" rel="stylesheet" />
+  <link href="css/reportngClass.css" rel="stylesheet" />
+  <script type="text/javascript" src="js/reportngClass.js"></script>
+  <script type="text/javascript" src="js/jquery-1.4.4.min.js"></script> 
+  <script type="text/javascript" src="js/jquery.tablesorter.min.js"></script>
+  <script type="text/javascript" src="js/json-min.js"></script>
+  <script type="text/javascript">
+	$(document).ready(function(){
+		$('.tablesorter').tablesorter({sortList: [[0,0]]});
+	});
+  </script>
+</head>
+<body onload="doParse(); return false;" onkeypress="collapseExpand();">
+<div class="well well-large">
+	<b>Test Info</>
+	<table class="table">
+	  <tr>
+	    <th>Test Name : </th>
+	    <th>
+	    	<div class="tooltipCustom">
+	    		<img src="images/copy.png" width="10" height="15" alt="Copy to Clipboard" onclick="copyToClipboard('#testNameId')"/>
+	    		<span class="tooltiptextCustom">Copy Test name</span>
+			</div>
+	    </th>
+	    <th id="testNameId">Test</th> 
+	  </tr>
+	  <tr>
+	    <th>Test Class : </th>
+	    <th>
+	    	<div class="tooltipCustom">
+	    		<img src="images/copy.png" width="10" height="15" alt="Copy to Clipboard" onclick="copyToClipboard('#testClassId')"/>
+	    		<span class="tooltiptextCustom">Copy full path Class name</span>
+			</div>
+	    	<div class="tooltipCustom">
+	    		<img src="images/copy.png" width="10" height="15" alt="Copy to Clipboard" onclick="copyToClipboard('#testClassNameId')"/>
+	    		<span class="tooltiptextCustom">Copy Class name</span>
+			</div>
+	    </th> 
+	    <th id="testClassId">com.Magento.TestRunner.S1UserRegistrationTestNGTR<br>com.Magento.TestRunner.S2LoginProductSearchTestNGTR<br>com.Magento.TestRunner.S3CheckoutPaymentTestNGTR<br>com.Magento.TestRunner.S4LoginValidInvalidTestNGTR<br>com.Magento.TestRunner.S5LoginMultipleProductsTestNGTR<br>com.Magento.TestRunner.S6LogoutVerificationTestNGTR<br></th>
+	    <th id="testClassNameId" hidden="true">S1UserRegistrationTestNGTR<br>S2LoginProductSearchTestNGTR<br>S3CheckoutPaymentTestNGTR<br>S4LoginValidInvalidTestNGTR<br>S5LoginMultipleProductsTestNGTR<br>S6LogoutVerificationTestNGTR<br></th>
+	  </tr>
+	  <tr>
+	    <th>Suite Name : </th>
+	    <th>
+	    	<div class="tooltipCustom">
+	    		<img src="images/copy.png" width="10" height="15" alt="Copy to Clipboard" onclick="copyToClipboard('#suiteNameId')"/>
+	    		<span class="tooltiptextCustom">Copy Suite name</span>
+			</div>
+		</th>
+	    <th id="suiteNameId">Suite</th>
+	  </tr>
+	  <tr>
+	    <th>Suite XML : </th>
+	    <th>
+	    	<div class="tooltipCustom">
+	    		<img src="images/copy.png" width="10" height="15" alt="Copy to Clipboard" onclick="copyToClipboard('#suiteXMLId')"/>
+	    		<span class="tooltiptextCustom">Copy Suite full path name</span>
+			</div>
+	    	<div class="tooltipCustom">
+	    		<img src="images/copy.png" width="10" height="15" alt="Copy to Clipboard" onclick="copyToClipboard('#suiteXMLNameId')"/>
+	    		<span class="tooltiptextCustom">Copy Suite file name</span>
+			</div>
+	    </th> 
+	  	<th id="suiteXMLId">C:\Users\Admin\eclipse-workspace\MagentoProjectV2\testng.xml</th>
+	  	<th id="suiteXMLNameId" hidden="true">testng.xml</th>
+	  </tr>
+	  	  <tr>
+	    <th>Total Time : </th>
+	    <th></th>
+	    <th>00:05:31</th> 
+	  </tr>
+	  <tr>
+	    <th>Total Steps : </th>
+	   	<th></th>
+	    <th>6</th> 
+	  </tr>
+	  <tr>
+	    <th>Status : </th>
+	    <th></th>
+	    <th><font color="green">PASS</font></th> 
+	  </tr>
+	</table>
+</div>
+<div class="well well-large">
+	<div class="row">
+		<div class="col-xs-12">
+	        <div class="text-right">
+	            <button id="hideResults" type="button" class="btn-danger" onclick="collapseExpand(this);" onkeypress="collapseExpand(this);" class="btn pull-right" title="Click or Press Any key to collapse/expand All Failed Tests and Configuration Methods">Show Only Failures</button>
+	        </div>
+	    </div>
+	</div>
+	<table class="tablesorter" border="1">
+		<thead>
+		<tr>
+		<th class="headerTime">Time</th>
+		<th class="headerTime" width="12%">Info</th>
+		<th class="headerTime" width="88%">Test</th>
+		</tr>
+		</thead>
+		<tbody>
+		
+				
+				
+																																
+				
+				
+												<tr>
+			<td class="time">1742875101950</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('3371f529-1c8c-4b29-97c3-1846300a62c1','block');changeSingleIcon('span-3371f529-1c8c-4b29-97c3-1846300a62c1');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>com.Magento.TestRunner.S1UserRegistrationTestNGTR</div>
+			<div style="float:right;">@Test @ with DataProvider : ["scenarios"] &nbsp;&nbsp;<span id='span-3371f529-1c8c-4b29-97c3-1846300a62c1' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1742875101950</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>runScenario</span><br>
+			<span class="description"><b>Description: </b>Runs Cucumber Scenarios</span><br>
+						<span class="description"><b>Groups: </b><font color='green'>cucumber</font></span><br>
+				<span class="duration"><b>Duration: </b>45.846s</span><br>
+	</td>
+	<td class="result">
+					<i>Method arguments: </i><span class="arguments">"To register a User with invalid Data Handling", "Checking User Registration"</span><br>
+				<div class="stackTrace" id="3371f529-1c8c-4b29-97c3-1846300a62c1" style="display: block;">
+					</td>
+	</div>
+</tr>
+										<tr>
+			<td class="time">1742875148730</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('2ab841a5-59ce-4109-a4bc-ca32171eeb10','block');changeSingleIcon('span-2ab841a5-59ce-4109-a4bc-ca32171eeb10');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>com.Magento.TestRunner.S2LoginProductSearchTestNGTR</div>
+			<div style="float:right;">@Test @ with DataProvider : ["scenarios"] &nbsp;&nbsp;<span id='span-2ab841a5-59ce-4109-a4bc-ca32171eeb10' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1742875148730</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>runScenario</span><br>
+			<span class="description"><b>Description: </b>Runs Cucumber Scenarios</span><br>
+						<span class="description"><b>Groups: </b><font color='green'>cucumber</font></span><br>
+				<span class="duration"><b>Duration: </b>67.529s</span><br>
+	</td>
+	<td class="result">
+					<i>Method arguments: </i><span class="arguments">"To Check Login, Search Product using Auto-suggest feature and Adding Product to Cart", "Checking Login, Product Search and Adding Product to cart"</span><br>
+				<div class="stackTrace" id="2ab841a5-59ce-4109-a4bc-ca32171eeb10" style="display: block;">
+					</td>
+	</div>
+</tr>
+										<tr>
+			<td class="time">1742875217252</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('5f09bfa1-e0d6-4f2c-b6c4-4f0b68661bd6','block');changeSingleIcon('span-5f09bfa1-e0d6-4f2c-b6c4-4f0b68661bd6');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>com.Magento.TestRunner.S3CheckoutPaymentTestNGTR</div>
+			<div style="float:right;">@Test @ with DataProvider : ["scenarios"] &nbsp;&nbsp;<span id='span-5f09bfa1-e0d6-4f2c-b6c4-4f0b68661bd6' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1742875217252</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>runScenario</span><br>
+			<span class="description"><b>Description: </b>Runs Cucumber Scenarios</span><br>
+						<span class="description"><b>Groups: </b><font color='green'>cucumber</font></span><br>
+				<span class="duration"><b>Duration: </b>99.850s</span><br>
+	</td>
+	<td class="result">
+					<i>Method arguments: </i><span class="arguments">"To Check Login, proceeding to Check out and placing Order", "Checking Login, proceeds to Check out and placing Order"</span><br>
+				<div class="stackTrace" id="5f09bfa1-e0d6-4f2c-b6c4-4f0b68661bd6" style="display: block;">
+					</td>
+	</div>
+</tr>
+										<tr>
+			<td class="time">1742875317468</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('47ea92ea-aaf0-4b97-b1a1-9e5eefc39be4','block');changeSingleIcon('span-47ea92ea-aaf0-4b97-b1a1-9e5eefc39be4');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>com.Magento.TestRunner.S4LoginValidInvalidTestNGTR</div>
+			<div style="float:right;">@Test @ with DataProvider : ["scenarios"] &nbsp;&nbsp;<span id='span-47ea92ea-aaf0-4b97-b1a1-9e5eefc39be4' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1742875317468</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>runScenario</span><br>
+			<span class="description"><b>Description: </b>Runs Cucumber Scenarios</span><br>
+						<span class="description"><b>Groups: </b><font color='green'>cucumber</font></span><br>
+				<span class="duration"><b>Duration: </b>25.109s</span><br>
+	</td>
+	<td class="result">
+					<i>Method arguments: </i><span class="arguments">"To check Login with valid and invalid Credentials", "Checking valid Login and invalid Login"</span><br>
+				<div class="stackTrace" id="47ea92ea-aaf0-4b97-b1a1-9e5eefc39be4" style="display: block;">
+					</td>
+	</div>
+</tr>
+										<tr>
+			<td class="time">1742875343029</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('8541449d-6147-4cfb-a193-10c9c32dbc70','block');changeSingleIcon('span-8541449d-6147-4cfb-a193-10c9c32dbc70');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>com.Magento.TestRunner.S5LoginMultipleProductsTestNGTR</div>
+			<div style="float:right;">@Test @ with DataProvider : ["scenarios"] &nbsp;&nbsp;<span id='span-8541449d-6147-4cfb-a193-10c9c32dbc70' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1742875343029</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>runScenario</span><br>
+			<span class="description"><b>Description: </b>Runs Cucumber Scenarios</span><br>
+						<span class="description"><b>Groups: </b><font color='green'>cucumber</font></span><br>
+				<span class="duration"><b>Duration: </b>50.068s</span><br>
+	</td>
+	<td class="result">
+					<i>Method arguments: </i><span class="arguments">"To Check Login, Search Products using Auto-suggest feature and Adding Multiple Products to Cart", "Checking Login, Product Search and Adding Multiple Products to Cart"</span><br>
+				<div class="stackTrace" id="8541449d-6147-4cfb-a193-10c9c32dbc70" style="display: block;">
+					</td>
+	</div>
+</tr>
+										<tr>
+			<td class="time">1742875393534</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('0639d86a-1832-4bb4-bf00-2a80cd867c05','block');changeSingleIcon('span-0639d86a-1832-4bb4-bf00-2a80cd867c05');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>com.Magento.TestRunner.S6LogoutVerificationTestNGTR</div>
+			<div style="float:right;">@Test @ with DataProvider : ["scenarios"] &nbsp;&nbsp;<span id='span-0639d86a-1832-4bb4-bf00-2a80cd867c05' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1742875393534</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>runScenario</span><br>
+			<span class="description"><b>Description: </b>Runs Cucumber Scenarios</span><br>
+						<span class="description"><b>Groups: </b><font color='green'>cucumber</font></span><br>
+				<span class="duration"><b>Duration: </b>31.333s</span><br>
+	</td>
+	<td class="result">
+					<i>Method arguments: </i><span class="arguments">"To check Logout Functionality using valid credentials", "Checking Logout functionality"</span><br>
+				<div class="stackTrace" id="0639d86a-1832-4bb4-bf00-2a80cd867c05" style="display: block;">
+					</td>
+	</div>
+</tr>
+					  
+	</tbody>
+	</table>
+</div>
+</body>
+</html>

@@ -16,4 +16,4 @@ Then User verifies Home Page is displayed after clicking Sign In button
 
 Examples:
 |InvalidEmail|InvalidPassword|Error|ValidEmail|ValidPassword|
-|jo@gmail.com|Ji123|The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.|jeyajosh1234@gmail.com|JeyaJosh123456| 
+|jo@gmail.com|Ji123|The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.|santoshAmal123@gmail.com|SantoshAmal123456| 

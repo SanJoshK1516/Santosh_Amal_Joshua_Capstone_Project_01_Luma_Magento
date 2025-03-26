@@ -13,5 +13,5 @@ And User verifies the  "Home Page"
 
 Examples:
 |ValidEmail|ValidPassword|Message|
-|jeyajosh1234@gmail.com|JeyaJosh123456| You have signed out and will go to our homepage in 5 seconds.|
+|santoshAmal123@gmail.com|SantoshAmal123456| You have signed out and will go to our homepage in 5 seconds.|
 

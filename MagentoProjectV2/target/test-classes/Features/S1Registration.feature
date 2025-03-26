@@ -17,4 +17,4 @@ And User clicks the Create an Account button
 Then User verifies Registration '<Message>' in the next page
 Examples:
 |FirstName|LastName|InvalidEmail|Password|ConfirmPassword|Error|ValidEmail|Message|
-|Jeya|Josh|josh456|JeyaJosh123456|JeyaJosh123456|Please enter a valid email address (Ex: johndoe@domain.com).|jeyajosh1234@gmail.com|Thank you for registering with Main Website Store.|
+|Santosh|Amal Joshua|josh456|SantoshAmal123456|SantoshAmal123456|Please enter a valid email address (Ex: johndoe@domain.com).|santoshAmal123@gmail.com|Thank you for registering with Main Website Store.|
